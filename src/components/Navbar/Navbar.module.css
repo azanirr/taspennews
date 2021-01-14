@@ -1,0 +1,27 @@
+.Container{
+    display: flex;
+    flex-direction: column;
+    border-bottom: 0px solid #ccc;
+    box-shadow:   0 6px 12px rgba(0,0,0,.1);
+}
+
+.ContainerLogo{
+    margin: 20px 0 0 40px;
+}
+
+.ContainerLogo img{
+    width: 150.5px;
+    height: 100.5px;
+}
+
+.Navbar ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-left: 40px;
+}
+
+.Navbar li{
+    margin-right: 40px;
+    list-style-type: none;
+}

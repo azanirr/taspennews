@@ -1,0 +1,37 @@
+.Container{
+    padding: 100px 50px 50px 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Container img{
+    width: 80%;
+    height: 750px;
+    object-fit: cover;
+}
+
+.Container h1, .Container h2, .Container p{
+    width: 80%;
+}
+
+.Container h1{
+    margin: 20px 0 0 0;
+    font-size: 22px;
+    text-transform: uppercase;
+    color:#eb2323;
+}
+.Container h2{
+    font-size: 20px;
+    margin-bottom: 0;
+}
+
+.Date{
+    font-size: 12px;
+    margin: 0 0 10px 0;
+    color: #555;
+}
+
+.Container p{
+    text-align: justify;
+}

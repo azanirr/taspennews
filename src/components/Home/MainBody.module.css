@@ -1,0 +1,112 @@
+.Container{
+    width: 850px;
+}
+.NewsTop{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 0 0 50px 0;
+}
+.NewsTop button{
+    box-sizing: border-box;
+    padding: 10px 70px;
+    cursor: pointer;
+    background: #222;
+    border: none;
+    color: white;
+    font-size: 14px;
+}
+
+.NewsTop div{
+    box-sizing: border-box;
+    font-size: 15px;
+    padding: 0 350px 0 30px;
+    background: #ccc;
+}
+
+
+.ContainerNews{
+    display: flex;
+    flex-direction: row;
+}
+.News{
+    width: 400px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: all 0.3s ease 0s;
+}
+
+.News:hover{
+    transition: all 0.3s ease 0s;
+    box-shadow:  16px 16px 32px #e3e3e3, 
+    -16px -16px 32px #ffffff;
+}
+
+.ContainerNews .News:nth-child(1){
+    margin-right: 50px;
+}
+
+.News img{
+    width: 398px;
+    height: 300px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    object-fit: cover;
+}
+.News h1{
+    padding: 5px 10px;
+    font-size: 16px;
+    text-transform: uppercase;
+    color:#eb2323;
+}
+
+.News h2{
+    font-size: 16px;
+    padding: 0 10px;
+    height:60px;
+    text-align: justify;
+}
+a{
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+}
+
+.News p{
+    font-size: 14px;
+    padding: 0 10px;
+    text-align: justify;
+}
+
+.News button{
+    box-sizing: border-box;
+    padding: 10px 30px;
+    background: #007bff;
+    border: none;
+    color: white;
+    cursor: pointer;
+    text-transform: uppercase;
+    border-radius: 2px;
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 10px 20px 0;
+    transition: all 0.3s ease 0s;
+}
+
+.News button:hover{
+    transition: all 0.3s ease 0s;
+    color: #CCC;
+    background: #004bff;
+
+}
+
+.Icon{
+    font-size: 14px;
+    margin-left: 5px;
+}
+
+.Icon:hover{
+    color: #ccc;
+}

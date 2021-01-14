@@ -1,0 +1,41 @@
+.Container{
+    padding: 20px 20px 20px 70px;
+}
+
+.NewsContainer{
+    display: flex;
+    flex-direction: column;
+}
+
+.News{
+    display: flex;
+    padding: 20px 0;
+    flex-direction: row;
+    align-items: flex-start;
+    border-bottom: 1px solid #ccc;
+}
+.News div:nth-child(1){
+    margin-right: 20px;
+}
+
+.News img{
+    width: 105px;
+    height: 150px;
+}
+
+.News h1{
+    font-size: 16px;
+    color:#eb2323;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.News p{
+    font-size: 14px;
+}
+.Date{
+    color: #777;
+    font-size: 13px;
+    margin-bottom: 0;
+
+}

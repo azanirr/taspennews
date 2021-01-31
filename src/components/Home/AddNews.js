@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from './AddNews.module.css';
 import moment from 'moment';
+import {Link} from 'react-router-dom';
 
 function AddNews (props) {
 
@@ -21,7 +22,9 @@ function AddNews (props) {
                     return(
                     <div className={styles.News} key={list.id}>
                         <div>
-                            <img src={list.image} alt="Other"></img>
+                            <Link to={"/detail/" + list.id}>
+                                <img src={list.image} alt="Other"></img>
+                            </Link>
                         </div>
                         <div>
                             <h1>{list.type}</h1>

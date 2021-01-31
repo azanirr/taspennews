@@ -7,11 +7,21 @@
 
 .ContainerLogo{
     margin: 20px 0 0 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.ContainerLogo h1{
+    color: #435b6e;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
 }
 
 .ContainerLogo img{
     width: 150.5px;
     height: 100.5px;
+    margin-right: 40px;
 }
 
 .Navbar ul{

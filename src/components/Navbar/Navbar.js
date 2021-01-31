@@ -9,6 +9,7 @@ function Navbar() {
         <div className={styles.Container}>
             <div className={styles.ContainerLogo}>
                 <img src={Logo} alt="Logo Taspen" title="Taspen Logo"></img>
+                <h1>Taspen News</h1>
             </div>
             <div className={styles.Navbar}>
                 <ul>

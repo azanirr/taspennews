@@ -3,6 +3,7 @@ import Home from './pages/Home';
 import DetailNews from './pages/DetailNews';
 import NewsPic from './assets/image/news.jpeg';
 import NewsPic2 from './assets/image/news2.jpeg';
+import NewsPic3 from './assets/image/news3.jpeg';
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 function App() {
@@ -32,6 +33,19 @@ function App() {
       `Menurut Kosasih, sejak disahkannya PP 70 Tahun 2015 tentang JKK dan JKM bagi Pegawai ASN dan PP 66 Tahun 2017 tentang Perubahan atas Peraturan Pemerintah Nomor 70 Tahun 2015 tentang JKK dan JKM bagi Pegawai ASN, sebagai operator pihaknya diberi amanah untuk mengelola JKK dan JKM bagi para Aparatur Sipil Negara. “Yang kita berikan adalah santunan dengan komponen THT, Asuransi Kematian, dan Jaminan Kecelakaan Kerja (JKK) kepada 3 orang ahli waris yang berasal dari Kementerian Kesehatan yakni ahli waris Almh. Ninuk Dwi Pusponingsih sebesar Rp 337.745.200, Alm. Tonni Daniel Silitonga sebesar Rp 341.453.900, dan Alm. Yuniarto Budi Santosa Rp 341.738.000. Dengan total keseluruhan sebesar Rp 1.020.937.100.`,
       `JKK yang diterima oleh para ahli waris merupakan jaminan yang diberikan akibat kecelakaan kerja saat penanganan COVID-19.”, sambungnya. Kosasih juga menambahkan karena 3 tenaga medis tersebut merupakan ASN Kementerian Kesehatan, maka ahli waris berhak mendapatkan manfaat Tabungan Hari Tua (THT) yang terdiri atas Asuransi Dwiguna dan Asuransi Kematian serta manfaat JKK, yakni santunan kematian, uang duka wafat, biaya pemakaman, dan beasiswa bagi anak korban.`,
       `Menghadapi pandemi ini, TASPEN siap memberikan pelayanan dan melaksanakan operasional berbasis digital di kantor layanan TASPEN yang tersebar di seluruh wilayah dan pelosok Indonesia. TASPEN memiliki protokol kesehatan dalam memberikan layanan kepada pesertanya. Melalui program “TASPEN PESONA” (Tanggap Andal Selamatkan Pensiunan dengan Pelayanan Bebas Corona), TASPEN selalu siap dalam memberikan layanan kepada para peserta khususnya para peserta pensiun diantaranya dengan layanan e-Klim, T-Care serta Otentikasi Digital tanpa harus bertatap muka.`,
+    ]
+  },
+  {
+    id: 3,
+    image: NewsPic3,
+    date: new Date(),
+    title: "Jakarta Targetkan Vaksinasi Covid Tahap I Tuntas 10 Hari",
+    type: "Health",
+    desc: [
+      `Wakil Gubernur DKI Jakarta Ahmad Riza Patria berharap program vaksinasi Covid-19 tahap pertama yang diprioritaskan untuk para tenaga kesehatan di wilayahnya bisa selesai paling lambat 10 hari lagi. Diketahui, vaksinasi tahap pertama bagi tenaga medis untuk dosis pertama sudah dilakukan pada Jumat (15/1). Sementara, dosis kedua diberikan hari ini, Jumat (29/1), atau 14 hari pasca-penyuntikan dosis pertama.`,
+      `"Mudah-mudahan dalam waktu seminggu, paling lambat 10 hari selesai. Jadi semua bergantung data," kata Riza di Balaikota, Jakarta Pusat, Jumat (29/1/2021)`,
+      `Dalam kesempatan itu, Riza memaparkan untuk periode pertama ini pihaknya menargetkan 131 ribu orang yang terdiri dari tenaga kesehatan bisa menerima vaksin. Dari jumlah itu, sebanyak 53.210 orang telah mendapat dosis pertama dan 2.449 orang di dalamnya telah mendapat dosis kedua.`,
+      `Untuk memudahkan vaksinasi terhadap para masyarakat, Riza mengaku Pemprov DKI telah menyediakan 508 fasilitas kesehatan pelayanan vaksinasi Covid-19. Jumlah tersebut tersebar di enam wilayah kota dan kabupaten di seluruh Jakarta.`
     ]
   }
   ])

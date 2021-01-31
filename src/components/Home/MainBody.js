@@ -23,7 +23,9 @@ function MainBody (props){
                     data = data.substr(0, Math.min(data.length, data.lastIndexOf(" "))) + ".....";
                     return(
                         <div className={styles.News} key={list.id}>
-                            <img src={list.image} alt="News Pic" title="Header News"></img>
+                            <Link to={"/detail/" + list.id}>
+                                <img src={list.image} alt="News Pic" title="Header News"></img>
+                            </Link>
                             <h1>{list.type}</h1>
                             <Link to={"/detail/" + list.id}>
                                 <h2>{list.title}</h2>
